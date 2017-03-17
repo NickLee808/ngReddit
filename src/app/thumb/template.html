@@ -1,0 +1,3 @@
+{{ post.data.title }}
+<br>
+<img ng-click="expanded = !expanded" ng-class="expanded ? 'large' : 'small'" ng-src="{{ post.data.preview.images[0].source.url }}" alt="{{ post.title }}"/>
